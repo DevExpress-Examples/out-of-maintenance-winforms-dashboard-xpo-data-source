@@ -16,6 +16,7 @@ using System.Reflection;
 namespace DashboardXpoExample.nwind
 {
 
+    [Persistent("Customer")]
     public partial class Customers : XPLiteObject
     {
         string fAddress;
@@ -65,6 +66,7 @@ namespace DashboardXpoExample.nwind
         string fCustomerID;
         [Key]
         [Size(5)]
+        [Persistent("Id")]
         public string CustomerID
         {
             get { return fCustomerID; }
