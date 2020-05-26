@@ -1,11 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="..\DashboardXpoExample\Form1.cs" Link="Form1.cs" />
     <Compile Include="..\DashboardXpoExample\Form1.Designer.cs" Link="Form1.Designer.cs" />
@@ -14,26 +12,21 @@
     <Compile Include="..\DashboardXpoExample\ORMDataModel1Code\Customers.Designer.cs" Link="ORMDataModel1Code\Customers.Designer.cs" />
     <Compile Include="..\DashboardXpoExample\Program.cs" Link="Program.cs" />
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="..\DashboardXpoExample\Form1.resx" Link="Form1.resx" />
   </ItemGroup>
-
   <ItemGroup>
     <None Include="..\DashboardXpoExample\App.config" Link="App.config" />
     <None Include="..\DashboardXpoExample\nwind.sqlite" Link="nwind.sqlite">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.3-ctp" />
     <PackageReference Include="DevExpress.WindowsDesktop.Win.Dashboard" Version="20.1.3" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112.2" />
   </ItemGroup>
-
   <ItemGroup>
     <Folder Include="ORMDataModel1Code\" />
   </ItemGroup>
-
 </Project>
