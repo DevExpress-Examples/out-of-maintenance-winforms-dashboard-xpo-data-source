@@ -22,8 +22,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.8-ctp" />
-    <PackageReference Include="DevExpress.WindowsDesktop.Win.Dashboard" Version="20.1.8" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.9-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win.Dashboard" Version="20.1.9" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112.2" />
   </ItemGroup>
   <ItemGroup>
